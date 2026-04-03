@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw spring-boot:run)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(docker exec:*)",
+      "Bash(docker compose:*)",
+      "Bash(powershell.exe:*)"
+    ]
+  }
+}
